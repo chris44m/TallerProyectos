@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Shantell Sans', cursive;
+    border-radius: 20px;
 }
 
 .fakeimg {
@@ -18,7 +19,6 @@ body {
     margin: 0;
 }
 
-/* Style the header */
 .header {
     padding: 80px;
     text-align: center;
@@ -26,7 +26,7 @@ body {
     color: white;
 }
 
-/* Increase the font size of the h1 element */
+
 .header h1 {
     font-size: 40px;
 }
@@ -67,6 +67,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -78,7 +79,7 @@ body {
     background: #56ab2f;
     background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
     background: linear-gradient(to right, #a8e063, #56ab2f);
-    padding-left: 80px;
+    
 
 }
 
@@ -88,11 +89,9 @@ body {
     background-color: white;
     padding: 20px;
     background: #56ab2f;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #a8e063, #56ab2f);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
 
 
 }
