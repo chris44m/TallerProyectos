@@ -33,7 +33,11 @@ body {
 
 /* Style the top navigation bar */
 .navbar {
-  position: sticky;
+  position: relative;
+  max-width: 100%;
+  padding: 0 20px;
+  border-radius: 40px;
+  box-shadow: 0 10px 40px rgba(159, 162, 177, .8);
   top: 0;
   overflow: hidden;
   background: #56ab2f;
@@ -79,7 +83,6 @@ body {
     background: #56ab2f;
     background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
     background: linear-gradient(to right, #a8e063, #56ab2f);
-    
 
 }
 
@@ -91,7 +94,6 @@ body {
     background: #56ab2f;
     background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
     background: linear-gradient(to right, #a8e063, #56ab2f);
-    padding: 20px;
 
 
 }
